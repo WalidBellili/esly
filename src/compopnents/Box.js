@@ -10,9 +10,8 @@ class Box extends Component {
     return (
       <div className="box col-sm-3 col-6">
         <span
+          style={{ fontSize: 100, color: this.props.color }}
           className="material-icons"
-          fontSize="100"
-          color={this.props.color}
         >
           {this.props.icon}
         </span>
